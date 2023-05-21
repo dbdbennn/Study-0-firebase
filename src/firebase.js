@@ -1,18 +1,15 @@
-import firebase from 'firebase/app';
-import 'firebase/auth';
-import 'firebase/firestore';
-import 'firebase/storage';
+import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  // Firebase 구성 정보를 여기에 붙여넣기
+  apiKey: "AIzaSyAtsC52zBNvuSkjU7zuvTdErBDcwbF-3QQ",
+  authDomain: "study-0-c5302.firebaseapp.com",
+  projectId: "study-0-c5302",
+  storageBucket: "study-0-c5302.appspot.com",
+  messagingSenderId: "816317935442",
+  appId: "1:816317935442:web:08d0855201cbd6a82bd48b",
+  measurementId: "G-QTPMEEX0J5"
 };
 
-// Firebase 앱 초기화
-firebase.initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
 
-// Firebase 서비스 객체 가져오기
-const auth = firebase.auth();
-const firestore = firebase.firestore();
-const storage = firebase.storage();
-
-export { firebase, auth, firestore, storage };
+export default app;
