@@ -69,7 +69,7 @@ function SignUp() {
     document.body.appendChild(script);
 
   return (
-    <div className="container">
+    <div className="signup-container">
       <div className="title">sign up</div>
       <div className="flex">
         <div className="input-div">
