@@ -61,6 +61,11 @@ function SignUp() {
       handleRegisterClick();
     }
   };
+  
+  const script = document.createElement("script");
+    script.src = "./js/placeholder.js";
+    script.async = true;
+    document.body.appendChild(script);
 
   return (
     <div className="container">
