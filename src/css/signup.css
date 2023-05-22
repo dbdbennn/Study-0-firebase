@@ -49,7 +49,7 @@ input {
     padding-right: 20px;
 }
 
-button {
+#register {
     margin-top: 30px;
     width: 560px;
     height: 86px;
@@ -68,7 +68,7 @@ button {
         font-size: 22px;
     }
 
-    button {
+    #register {
         width: 360px;
         height: 68px;
         font-size: 30px;
@@ -101,7 +101,7 @@ button {
         font-size: 20px;
     }
 
-    button {
+    #register {
         width: 320px;
         height: 68px;
         font-size: 24px;

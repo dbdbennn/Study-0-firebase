@@ -34,7 +34,7 @@ function Characters() {
 
     return (
         <body>
-            <div className="container">
+            <div className="char-container">
                 <div className="title">characters</div>
                 <div className="div-nontitle">
                     <div className="characters-div">
