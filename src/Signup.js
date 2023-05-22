@@ -5,6 +5,7 @@ import "./css/font.css";
 import "./css/base.css";
 
 function SignUp() {
+
   const inputRef = useRef(null);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -61,7 +62,7 @@ function SignUp() {
       handleRegisterClick();
     }
   };
-  
+
   const script = document.createElement("script");
     script.src = "./js/placeholder.js";
     script.async = true;
